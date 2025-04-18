@@ -1,0 +1,36 @@
+SOLID is a design principle which comprise of 5 design principles. They are:
+1. SRP - Single Responsibility Principle
+2. OCP - Open/Closed Principle
+3. LSP - Liskov Substitution Principle
+4. ISP - Interface Segregation Principle
+5. DIP - Dependency Inversion Principle
+
+Each principle we'll discuss with an example.
+1. Single Responsibility:
+------------------------
+It states that a class should have only one responsibility. Further more it should have only one reason
+to change.
+Benefits:
+--------
+Testing : A class with one responsibility will have fewer test cases.
+Lower Coupling : Less functionalities in a class will have fewer dependencies.
+Organization : Smaller, well-organized classes are easier to search than monolithic ones.
+
+2. Open/Closed:
+--------------
+It states that class should open for extension but closed for modification. In doing so we stop ourselves
+from modifying existing code and causing potential new bugs.
+
+3. Liskov Substitution:
+----------------------
+It states that if a class A is subclass of class B, we should be able to replace B with A without disrupting
+the behaviour of our program.
+
+4. Interface Segregation:
+------------------------
+It states that larger interface should be split into smaller ones. By doing so we made sure that implementing
+class should be concerned about the methods that interest to them.
+
+5. Dependency Inversion:
+-----------------------
+It states that instead of high-level modules depending on low-level modules, both will depends on abstraction.
